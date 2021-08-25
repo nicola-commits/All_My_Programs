@@ -1,0 +1,575 @@
+
+<!DOCTYPE html>
+<html class="scripts-not-loaded" dir="ltr"   lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="preload" href="/dist/fonts/lato/extended/Lato-Regular-bd03a2cc27.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/dist/fonts/lato/extended/Lato-Bold-cccb897485.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/dist/fonts/lato/extended/Lato-Italic-4eb103b4d1.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" media="screen" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/no_variables/bundles/lato_extended-f5a83bde37.css" />
+    <script>if (navigator.userAgent.match(/(MSIE|Trident\/)/)) location.replace('/ie-is-not-supported.html')</script>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/images/favicon-e10d657a73.ico" />
+  <link rel="apple-touch-icon" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/images/apple-touch-icon-585e5d997d.png" />
+  <link rel="stylesheet" media="all" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/dc870dd1b96ba8af2840d624a9d4a792/variables-8391c84da435c9cfceea2b2b3317ff66.css" />
+  <link rel="stylesheet" media="all" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/responsive_layout_normal_contrast/bundles/common-ddfcf5a2ea.css" />
+  <meta name="apple-itunes-app" content="app-id=480883488" />
+<link rel="manifest" href="/web-app-manifest/manifest.json" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#004665">
+  <link rel="stylesheet" media="all" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/responsive_layout_normal_contrast/bundles/quizzes-1e341a42ad.css" />
+<link rel="stylesheet" media="all" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/responsive_layout_normal_contrast/bundles/tinymce-59c32fac15.css" />
+<link rel="stylesheet" media="all" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/responsive_layout_normal_contrast/bundles/new_user_tutorials-2950c871dd.css" />
+  
+  <script>
+    function _earlyClick(e){
+      var c = e.target
+      while (c && c.ownerDocument) {
+        if (c.getAttribute('href') == '#' || c.getAttribute('data-method')) {
+          if (!e.defaultPrevented) {
+            e.preventDefault()
+          }
+          (_earlyClick.clicks = _earlyClick.clicks || []).push(c)
+          break
+        }
+        c = c.parentNode
+      }
+    }
+    document.addEventListener('click', _earlyClick)
+  </script>
+
+
+  <script>
+    INST = {"environment":"production","allowMediaComments":true,"kalturaSettings":{"domain":"pdx.nv.instructuremedia.com","resource_domain":"pdx.nv.instructuremedia.com","rtmp_domain":"pdx.rtmp.instructuremedia.com","partner_id":3,"subpartner_id":0,"player_ui_conf":0,"kcw_ui_conf":0,"upload_ui_conf":0,"max_file_size_bytes":534773760,"js_uploader":"yes"},"logPageViews":true,"maxVisibleEditorButtons":3,"editorButtons":[{"name":"Office365","id":66,"favorite":false,"url":"https://office365-pdx-prod.instructure.com/lti/rce-content-item","icon_url":"https://office365-pdx-prod.instructure.com/images/office365_icon.png","canvas_icon_class":null,"width":900,"height":600,"use_tray":false,"description":"\u003cp\u003eAllows you to pull in documents from Office 365 to Canvas\u003c/p\u003e\n"},{"name":"Screencast-O-Matic","id":117,"favorite":false,"url":"https://screencast-o-matic.com/lti/editorButton","icon_url":"https://dfjnl57l0uncv.cloudfront.net/www/3bad3cb61/images/lti_canvas_editbutton.png","canvas_icon_class":null,"width":770,"height":600,"use_tray":false,"description":"\u003cp\u003eEasy-to-use video creation, editing and publishing.   Flipped classrooms, lecture capture, announcements, student video assignments and assessments can all be accomplished from your LMS with the Screencast-O-Matic Screen Recorder, Video Editor and Publishing Services.\u003c/p\u003e\n"},{"name":"StemScopes LTI","id":273,"favorite":false,"url":"https://app.acceleratelearning.com/lti_content_item_tool?placement=editor_button","icon_url":"https://cdn.acceleratelearning.com/www/logo/stemscopes-icon-46x46.png","canvas_icon_class":null,"width":1170,"height":900,"use_tray":false,"description":"\u003cp\u003eContent Item tool for Accelerate Learning\u003c/p\u003e\n"},{"name":"Interactive Content – H5P","id":327,"favorite":false,"url":"https://capistranounified.h5p.com","icon_url":"https://capistranounified.h5p.com/img/h5p-icon.png","canvas_icon_class":null,"width":800,"height":600,"use_tray":false,"description":"\u003cp\u003eCreate, share and reuse interactive HTML5 content in your browser\u003c/p\u003e\n"},{"name":"Khan Academy","id":335,"favorite":false,"url":"https://www.edu-apps.org/lti_public_resources/?tool_id=khan_academy","icon_url":"https://www.edu-apps.org/assets/lti_public_resources/khan_academy_icon.png","canvas_icon_class":null,"width":560,"height":600,"use_tray":false,"description":"\u003cp\u003eSearch for and embed Khan Academy lessons and exercise into course material. Khan Academy focuses on short lessons on math, science, etc. Uses the embedded player so students earn points for watching videos.\u003c/p\u003e\n"},{"name":"Google Drive (LTI 1.3)","id":15067,"favorite":true,"url":"https://assignments.google.com/lti/e","icon_url":"https://www.gstatic.com/images/branding/product/1x/drive_16dp.png","canvas_icon_class":null,"width":690,"height":530,"use_tray":false,"description":"\u003cp\u003eCollect, analyze, and grade student work with Google Assignments\u003c/p\u003e\n"},{"name":"Google Cloud","id":28438,"favorite":false,"url":"https://google-drive-lti-iad-prod.instructure.com/lti/rce-content-selection","icon_url":"https://google-drive-lti-iad-prod.instructure.com/icon.png","canvas_icon_class":null,"width":700,"height":600,"use_tray":false,"description":"\u003cp\u003eAllows you to pull in documents from Google Drive to Canvas\u003c/p\u003e\n"},{"name":"Savvas Realize Course Connect","id":28448,"favorite":false,"url":"https://ltitoolgateway-service.savvasrealize.com/lti_tool_gateway-service/oidc/launch","icon_url":"https://assets.savvas.com/asset_mgr/current/202019/Realize_Savvas_Logo_color_rgb.png","canvas_icon_class":null,"width":900,"height":600,"use_tray":false,"description":"\u003cp\u003eSavvas Realize Course Connect\u003c/p\u003e\n"}]};
+    ENV = {"ASSET_HOST":"https://du11hjcvx0uqb.cloudfront.net/br","active_brand_config_json_url":"https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/dc870dd1b96ba8af2840d624a9d4a792/variables-8391c84da435c9cfceea2b2b3317ff66.json","url_to_what_gets_loaded_inside_the_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/dc870dd1b96ba8af2840d624a9d4a792/variables-8391c84da435c9cfceea2b2b3317ff66.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/responsive_layout_normal_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-06ece79da7.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/no_variables/bundles/lato_extended-f5a83bde37.css"],"url_for_high_contrast_tinymce_editor_css":["https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/default/variables-high_contrast-8391c84da435c9cfceea2b2b3317ff66.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/responsive_layout_high_contrast/bundles/what_gets_loaded_inside_the_tinymce_editor-a311763d48.css","https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/no_variables/bundles/lato_extended-f5a83bde37.css"],"current_user_id":"102077","current_user_roles":["user","student"],"current_user_types":[],"current_user_disabled_inbox":false,"files_domain":"cluster340.canvas-user-content.com","DOMAIN_ROOT_ACCOUNT_ID":"167500000000000001","k12":true,"use_responsive_layout":true,"use_rce_enhancements":true,"rce_auto_save":true,"use_rce_a11y_checker_notifications":false,"help_link_name":"Support","help_link_icon":"help","use_high_contrast":false,"auto_show_cc":false,"disable_celebrations":false,"disable_keyboard_shortcuts":false,"LTI_LAUNCH_FRAME_ALLOWANCES":["geolocation *","microphone *","camera *","midi *","encrypted-media *","autoplay *"],"DEEP_LINKING_POST_MESSAGE_ORIGIN":"https://capousd.instructure.com","DEEP_LINKING_LOGGING":null,"comment_library_suggestions_enabled":false,"SETTINGS":{"open_registration":false,"collapse_global_nav":true,"release_notes_badge_disabled":false},"KILL_JOY":true,"DIRECT_SHARE_ENABLED":false,"FEATURES":{"cc_in_rce_video_tray":true,"featured_help_links":true,"rce_pretty_html_editor":true,"rce_better_file_downloading":true,"rce_better_file_previewing":true,"strip_origin_from_quiz_answer_file_references":true,"rce_buttons_and_icons":false,"important_dates":true,"feature_flag_filters":false,"responsive_awareness":true,"responsive_misc":true,"product_tours":false,"module_dnd":true,"files_dnd":true,"unpublished_courses":true,"usage_rights_discussion_topics":true,"inline_math_everywhere":true,"granular_permissions_manage_users":true,"rce_limit_init_render_on_page":false,"embedded_release_notes":true,"canvas_k6_theme":false,"new_math_equation_handling":true},"current_user":{"id":"102077","display_name":"Nicola Migone Recacoechea","avatar_image_url":"https://capousd.instructure.com/images/messages/avatar-50.png","html_url":"https://capousd.instructure.com/about/102077","pronouns":null,"avatar_is_fallback":true},"page_view_update_url":"/page_views/ebfe0e06-ed12-41c8-86b4-0ca78e893b30?page_view_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpIjoiZWJmZTBlMDYtZWQxMi00MWM4LTg2YjQtMGNhNzhlODkzYjMwIiwidSI6MTY3NTAwMDAwMDAwMTAyMDc3LCJjIjoiMjAyMS0wOC0yNVQwMjo0NjowNC42NFoifQ.K2RteMwITAJrFoa_PSUDvAZQQheG95nNs99t7s91-vM","context_asset_string":"course_33561","ping_url":"https://capousd.instructure.com/api/v1/courses/33561/ping","TIMEZONE":"America/Los_Angeles","CONTEXT_TIMEZONE":"America/Los_Angeles","LOCALE":"en","BIGEASY_LOCALE":"en_US","FULLCALENDAR_LOCALE":"en","MOMENT_LOCALE":"en","rce_auto_save_max_age_ms":86400000,"K5_USER":false,"K5_HOMEROOM_COURSE":false,"K5_SUBJECT_COURSE":false,"RICH_CONTENT_APP_HOST":"rich-content-pdx.inscloudgate.net","RICH_CONTENT_SKIP_SIDEBAR":null,"JWT":"ZXlKaGJHY2lPaUprYVhJaUxDSmxibU1pT2lKQk1qVTJSME5OSW4wLi5MVVhEZE92VEtES1Y4YzItLl91ZU1qdjhhNWZ4aS1Mb2tuVlk3eEVRTFFOSlJGbWNFTTJhYjJZQVN0Tm5Pd1dfVXZzTFdVTTJaa0lGX3VjNTVrMTNDZ1AtTjlLc0tPekd2WS04U1dvU1B0R1NmVVlaRGxiSTdTZjdiV1B1dzdQX3NPbGRxTlNlZEhlSFQ2SFRMWEN6RU1IbEFfT3c3YmVEelUwRE55dE9oaXpRTC1MVk5oZHFvUjF3Qm4yTTY2a2NyWmZQZXNnUEZ3SHpqMk42dGd0NGh6U1dCTHM4TmgyNHpDenFreFdPTEU4VlVYcE5rbmp6em5uckJCRXNyYUYzYlI3V0YwRkF2d1RlYWw1Q1hqeFA2WTNZc1V6a2M0TWRiU2FpazRfMlBnVGRqSXczczlIakpVNXlTeWxScHl4WXFwalo0QS16YUN3U0dqSGdLZE9zaGRVNjUwU1FtdjdYZTZ5TE4tSlB0MGFBdFkzSUtseXhveWR5bFFIR2R3ZTBPQmF0ZHZBS0NZZFJrUmN1MTg2cHlzQjVBTThRdWE0QzcwZ29hRDd0MDlVZm91aGUzTlNlUEREc2hfRDJXNzVDaHQ5SURaM3B0SlVsdi1RMDFHY2dhUUhhWURHVnVvOHZrV3RWZGszWlBRX3ZNaXFtS3FDYlhTV0EzSUVLd2FJWTJpRXpsRW9WNmZiejBWOGlUMFJ3UXJPZ1lJOE5CVTVQR1BMYVoweTJQU2ZVemRZV0JHWkg2ZVlEbTdsNWczaEVhWllBdVlRTnVGVmhEOWw0bXV6bEMtQ055NVlwWEdneUc1SEZJdWJwcUF1bVR6TTNRcG1FVWYwMkJoWDFQUTZoZllmeDhDUFNJMkN5YVlKVkEtbElob3J0VzFvYkVoUnl6TXBJU25fOUxjVndFN09seENZTUdZNFdmWW8tMXF0N05OVzN5aTQyeU10UVh6eGp3aWFzbHJab0NJWEhpcWVCWGcwcUlROHhCYkt0QkhaSkhiMWd3LWthS3ZkTExFazJVZ3lXaVF2SWVnbjVtamtxN2xhSUttN0g4RFAxTEZlLVRjSUw4MXNhNGpzSG1FVmk4bDEtaHAwM2V5clZfOFVvYi54dW4tLXlVVl83aWhhemNQTjg5R2pB","RICH_CONTENT_CAN_UPLOAD_FILES":false,"RICH_CONTENT_FILES_TAB_DISABLED":false,"RICH_CONTENT_INST_RECORD_TAB_DISABLED":false,"SUBMISSION_DOWNLOAD_DIALOG_TITLE":"Download All Quiz File Upload Submissions","UPLOAD_URL":"/api/v1/courses/33561/quizzes/307660/submissions/self/files","QUIZ_SUBMISSION_EVENTS_URL":"https://capousd.instructure.com/api/v1/courses/33561/quizzes/307660/submissions/1764338/events","ATTACHMENTS":{},"CONTEXT_ACTION_SOURCE":"quizzes","COURSE_ID":"33561","LOCKDOWN_BROWSER":false,"QUIZ":{"id":"307660","title":"Simple Machines and Motion QUIZ!!!","html_url":"https://capousd.instructure.com/courses/33561/quizzes/307660","mobile_url":"https://capousd.instructure.com/courses/33561/quizzes/307660?force_user=1\u0026persist_headless=1","description":"","quiz_type":"assignment","time_limit":null,"timer_autosubmit_disabled":false,"shuffle_answers":true,"show_correct_answers":false,"scoring_policy":"keep_highest","allowed_attempts":1,"one_question_at_a_time":true,"question_count":2,"points_possible":13.0,"cant_go_back":true,"ip_filter":null,"due_at":"2021-08-24T23:59:59-07:00","lock_at":null,"unlock_at":null,"published":true,"locked_for_user":false,"hide_results":"always","show_correct_answers_at":null,"hide_correct_answers_at":null,"all_dates":[{"due_at":"2021-08-24T23:59:59-07:00","unlock_at":null,"lock_at":null,"base":true}],"can_update":false,"require_lockdown_browser":false,"require_lockdown_browser_for_results":false,"require_lockdown_browser_monitor":false,"lockdown_browser_monitor_data":"","permissions":{"manage":false,"read":true,"update":false,"create":false,"submit":true,"preview":false,"delete":false,"read_statistics":false,"grade":false,"review_grades":false,"view_answer_audits":false},"quiz_reports_url":"https://capousd.instructure.com/api/v1/courses/33561/quizzes/307660/reports","quiz_statistics_url":"https://capousd.instructure.com/api/v1/courses/33561/quizzes/307660/statistics","important_dates":false,"quiz_submission_versions_html_url":"https://capousd.instructure.com/courses/33561/quizzes/307660/submission_versions","assignment_id":"4036794","one_time_results":false,"assignment_group_id":"180462","show_correct_answers_last_attempt":false,"version_number":5,"has_access_code":false,"post_to_sis":false,"migration_id":"g05315efc2b1917d6d6b71ee6a82a6e94"},"QUIZ_DETAILS_URL":"https://capousd.instructure.com/courses/33561/quizzes/307660/managed_quiz_data","QUIZZES_URL":"https://capousd.instructure.com/courses/33561/quizzes","MAX_GROUP_CONVERSATION_SIZE":100,"CONDITIONAL_RELEASE_SERVICE_ENABLED":true,"CONDITIONAL_RELEASE_ENV":{"assignment":{"id":"4036794","title":"Simple Machines and Motion QUIZ!!!","description":"","points_possible":13.0,"grading_type":"points","submission_types":"online_quiz","grading_scheme":{"A":0.92,"A-":0.9,"B+":0.87,"B":0.82,"B-":0.8,"C+":0.77,"C":0.72,"C-":0.7,"D+":0.67,"D":0.62,"D-":0.6,"F":0.0}},"course_id":"33561","stats_url":"/api/v1/courses/33561/mastery_paths/stats","rule":null},"badge_counts":{"submissions":0},"notices":[],"active_context_tab":"quizzes"};
+    BRANDABLE_CSS_HANDLEBARS_INDEX = [["new_styles_normal_contrast","new_styles_high_contrast","responsive_layout_normal_contrast","responsive_layout_high_contrast","new_styles_normal_contrast_rtl","new_styles_high_contrast_rtl","responsive_layout_normal_contrast_rtl","responsive_layout_high_contrast_rtl"],{"10":["5bbee90ed9",0,0,0,"f8054b5691",4,4,4],"15":["fc26aa5fd4",0,0,0,"f904416063",4,4,4],"19":["df5777ed9c"],"61":["c34731ada0","f405852bb2",0,1,"a4eda69452","3fd9943b9a",4,5],"64":["21378f7526",0,0,0,"f84a886b19",4,4,4],"67":["8b57f54e71",0,0,0,"43833dde85",4,4,4],"71":["3c9717147d","35a72c2ea4",0,1,"ad02073327","9605e27890",4,5],"06":["4526e0502d",0,0,0,"4ca4dedba8",4,4,4],"f0":["7c947dce20",0,0,0,0,0,0,0],"c8":["ce38e5e01d","b9068fb85c",0,1,"abe25b43ac","891d385c6e",4,5],"1e":["a4ce6b99b5","39d2986ce0","93968ae330","541e45feba","e12dd92511","ba63dd3b58","8594db4d82","e291bb53e9"],"b3":["8ebc71ebc3","cf8efa05c8",0,1,"4efdc93a21","fd6d3a9780",4,5],"4f":["0a2c3dcf2f",0,0,0,"79668e6396",4,4,4],"0c":["c26e82abac",0,0,0,"b71e9cbd6d",4,4,4],"da":["b218c8c3f2","edbd1b5e83",0,1,"312312508c","dfb2d13098",4,5],"1d":["a3bfcb7961",0,0,0,"90682b3bbe",4,4,4],"08":["64bff5a97d"],"e2":["11429f119a"],"9f":["35936a18c3",0,0,0,0,0,0,0],"2b":["87b3ec4aa1",0,0,0,"39522697fb",4,4,4],"2c":["6d919206cd",0,0,0,0,0,0,0],"c2":["6f2721ae01"],"9c":["ecafc938e4",0,0,0,"59e7c22304",4,4,4],"6f":["363cd4d36b",0,0,0,0,0,0,0],"c5":["ebf0e1382f","7f587d9a8a",0,1,"afbdabf23d","0d398196a8",4,5],"f2":["51574f9b13"]}]
+;
+  </script>
+
+  <link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/dc870dd1b96ba8af2840d624a9d4a792/variables-8391c84da435c9cfceea2b2b3317ff66.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/America/Los_Angeles-d9cac65c52.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/America/Los_Angeles-d9cac65c52.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/en_US-80a0ce259b.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/main-e-142e90de75.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+
+      ;["https://du11hjcvx0uqb.cloudfront.net/br/dist/brandable_css/dc870dd1b96ba8af2840d624a9d4a792/variables-8391c84da435c9cfceea2b2b3317ff66.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/America/Los_Angeles-d9cac65c52.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/America/Los_Angeles-d9cac65c52.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/timezone/en_US-80a0ce259b.js", "https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/main-e-142e90de75.js"].forEach(function(src) {
+        var s = document.createElement('script')
+        s.src = src
+        s.async = false
+        document.head.appendChild(s)
+      });
+//]]>
+</script><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/0-c-d122efd52f.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/2-c-d3eede0f8d.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/7-c-9b25472ce7.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/14-c-89932b56a2.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/18-c-55b79cc814.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/21-c-9eac3deb52.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/22-c-7bd2f31874.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/42-c-d57e15b777.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/161-c-855d715643.js" as="script" type="text/javascript"><link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/take_quiz-c-168d52ed35.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('take_quiz');
+(window.bundles || (window.bundles = [])).push('navigation_header');
+//]]>
+</script>
+  <title>Quiz: Simple Machines and Motion QUIZ!!!</title>
+  
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', "UA-9138420-1", 'auto');
+      ga('set', 'userId', "65067d331e56a472d438153d09d4396c");
+    ga('set', 'dimension1', "100");
+    ga('set', 'dimension2', "00");
+    ga('set', 'dimension3', "0");
+    ga('set', 'dimension4', "K12");
+    ga('send', 'pageview');
+    (window.requestIdleCallback || window.setTimeout)(function(){
+      var s=document.createElement('script'), m=document.getElementsByTagName('script')[0]
+      s.async=1; s.src='https://www.google-analytics.com/analytics.js'
+      m.parentNode.insertBefore(s,m)
+    });
+  </script>
+
+
+
+</head>
+
+<body class="assessing with-left-side course-menu-expanded with-right-side quizzes primary-nav-transitions full-width context-course_33561 responsive_awareness responsive_misc">
+
+<noscript>
+  <div role="alert" class="ic-flash-static ic-flash-error">
+    <div class="ic-flash__icon" aria-hidden="true">
+      <i class="icon-warning"></i>
+    </div>
+    <h1>You need to have JavaScript enabled in order to access this site.</h1>
+  </div>
+</noscript>
+
+
+
+
+<ul id="flash_message_holder"></ul>
+<div id="flash_screenreader_holder"></div>
+
+<div id="application" class="ic-app">
+  
+
+
+
+    <header id="mobile-header" class="no-print">
+      <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-hamburger">
+        <i class="icon-solid icon-hamburger"></i>
+        <span id="mobileHeaderInboxUnreadBadge" class="menu-item__badge" style="min-width: 0; top: 12px; height: 12px; right: 6px; display:none;"></span>
+        <span class="screenreader-only">Dashboard</span>
+      </button>
+      <div class="mobile-header-space"></div>
+        <a class="mobile-header-title expandable" href="/courses/33561" role="button" aria-controls="mobileContextNavContainer">
+          <div>DH8999-P1-Andre, J</div>
+            <div>Simple Machines and Motion QUIZ!!!</div>
+        </a>
+        <div class="mobile-header-space"></div>
+        <button type="button" class="Button Button--icon-action-rev Button--large mobile-header-arrow" aria-label="Navigation Menu">
+          <i class="icon-arrow-open-down" id="mobileHeaderArrowIcon"></i>
+        </button>
+    </header>
+    <nav id="mobileContextNavContainer"></nav>
+  <header id="header" class="ic-app-header no-print ">
+    <a href="#content" id="skip_navigation_link">Skip To Content</a>
+      <div role="region" class="ic-app-header__main-navigation" aria-label="Global Navigation">
+        <div class="ic-app-header__logomark-container">
+          <a href="https://capousd.instructure.com/" class="ic-app-header__logomark">
+            <span class="screenreader-only">Dashboard</span>
+          </a>
+        </div>
+        <ul id="menu" class="ic-app-header__menu-list">
+            <li class="menu-item ic-app-header__menu-list-item ">
+              <button id="global_nav_profile_link" class="ic-app-header__menu-list-link">
+                <div class="menu-item-icon-container">
+                  <div aria-hidden="true" class="fs-exclude ic-avatar ">
+                    <img src="https://capousd.instructure.com/images/messages/avatar-50.png" alt="Nicola Migone Recacoechea" />
+                  </div>
+                  <span class="menu-item__badge"></span>
+                </div>
+                <div class="menu-item__text">
+                  Account
+                </div>
+              </button>
+            </li>
+          <li class="ic-app-header__menu-list-item ">
+            <a id="global_nav_dashboard_link" href="https://capousd.instructure.com/" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg width="36" height="36" class="ic-icon-svg ic-icon-svg--dashboard" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"><title>Oval-95</title><path d="M21.87 16.98l7.276-7.276c.78-.78.777-2.044-.004-2.825a1.993 1.993 0 0 0-2.825-.005l-7.265 7.265A4.005 4.005 0 0 0 14 18a4 4 0 1 0 7.87-1.02zM18 36c9.94 0 18-8.06 18-18S27.94 0 18 0 0 8.06 0 18s8.06 18 18 18zM2 18a1 1 0 0 1 .99-1h4.02c.546 0 .99.444.99 1a1 1 0 0 1-.99 1H2.99A.993.993 0 0 1 2 18zM17 3.99c0-.546.444-.99 1-.99a1 1 0 0 1 1 .99v4.02c0 .546-.444.99-1 .99a1 1 0 0 1-1-.99V3.99zM6.7 8.116a.993.993 0 0 1 .007-1.408A1 1 0 0 1 8.115 6.7l2.84 2.842a.993.993 0 0 1-.005 1.408 1 1 0 0 1-1.408.006l-2.84-2.84zM28 18a1 1 0 0 1 .99-1h4.02c.546 0 .99.444.99 1a1 1 0 0 1-.99 1h-4.02a.993.993 0 0 1-.99-1zm-10 2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" fill="currentColor" fill-rule="evenodd"/></svg>
+
+              </div>
+              <div class="menu-item__text">Dashboard</div>
+            </a>
+          </li>
+            <li class="menu-item ic-app-header__menu-list-item ic-app-header__menu-list-item--active">
+              <button id="global_nav_courses_link" class="ic-app-header__menu-list-link">
+                <div class="menu-item-icon-container" aria-hidden="true">
+                  <svg width="34" height="36" class="ic-icon-svg ic-icon-svg--dashboard" viewBox="0 0 34 36" xmlns="http://www.w3.org/2000/svg"><title>icon-courses</title><path d="M4 31v3c0 1.11.892 2 1.992 2h26.016A2 2 0 0 0 34 34V2c0-1.11-.892-2-1.992-2H5.992A2 2 0 0 0 4 2v3h1.01A2.993 2.993 0 0 1 8 8a3 3 0 0 1-2.99 3H4v4h1.01A2.993 2.993 0 0 1 8 18a3 3 0 0 1-2.99 3H4v4h1.01A2.993 2.993 0 0 1 8 28a3 3 0 0 1-2.99 3H4zm8-23h14v8H12V8zm2 2h10v4H14v-4zM0 8c0 .556.444 1 .99 1h4.02A1 1 0 0 0 6 8c0-.556-.444-1-.99-1H.99A1 1 0 0 0 0 8zm0 10c0 .556.444 1 .99 1h4.02A1 1 0 0 0 6 18c0-.556-.444-1-.99-1H.99A1 1 0 0 0 0 18zm0 10c0 .556.444 1 .99 1h4.02A1 1 0 0 0 6 28c0-.556-.444-1-.99-1H.99A1 1 0 0 0 0 28z" fill="currentColor" fill-rule="evenodd"/></svg>
+
+                </div>
+                <div class="menu-item__text">
+                  Courses
+                </div>
+              </button>
+            </li>
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_calendar_link" href="/calendar" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg width="36" height="34" class="ic-icon-svg ic-icon-svg--dashboard" viewBox="0 0 36 34" xmlns="http://www.w3.org/2000/svg"><title>icon-calendar</title><path d="M24 3H13v1.5C13 6.436 11.438 8 9.5 8 7.567 8 6 6.44 6 4.5V3H2a2 2 0 0 0-2 1.998V9h36V4.998C36 3.894 35.11 3 34 3h-3v1.5C31 6.436 29.438 8 27.5 8 25.567 8 24 6.44 24 4.5V3zM0 11h36v21c0 1.104-.89 2-2 2H2c-1.105 0-2-.902-2-2V11zm4 3h4v4H4v-4zm6 12h4v4h-4v-4zm-6-6h4v4H4v-4zm6-6h4v4h-4v-4zm6 12h4v4h-4v-4zm-6-6h4v4h-4v-4zm6-6h4v4h-4v-4zm6 12h4v4h-4v-4zm-6-6h4v4h-4v-4zm6-6h4v4h-4v-4zm6 12h4v4h-4v-4zm-6-6h4v4h-4v-4zm6 0h4v4h-4v-4zM8 1.5v3C8 5.336 8.672 6 9.5 6c.834 0 1.5-.67 1.5-1.5v-3C11 .664 10.328 0 9.5 0 8.666 0 8 .67 8 1.5zm18 0v3c0 .835.672 1.5 1.5 1.5.834 0 1.5-.67 1.5-1.5v-3c0-.835-.672-1.5-1.5-1.5-.834 0-1.5.67-1.5 1.5z" fill="currentColor" fill-rule="evenodd"/></svg>
+
+              </div>
+              <div class="menu-item__text">
+                Calendar
+              </div>
+            </a>
+          </li>
+          <li class="menu-item ic-app-header__menu-list-item ">
+            <a id="global_nav_conversations_link" href="/conversations" class="ic-app-header__menu-list-link">
+              <div class="menu-item-icon-container">
+                <span aria-hidden="true"><svg width="36" height="37" class="ic-icon-svg ic-icon-svg--dashboard" viewBox="0 0 36 37" xmlns="http://www.w3.org/2000/svg"><title>icon-inbox</title><path d="M3 17.962V0h30v17.962l-9.2 6.016-3.288-2.17c-1.39-.915-3.636-.914-5.024 0L12.2 23.98 3 17.962zM0 35l16.34-10.893c.916-.61 2.41-.607 3.32 0L36 35v2H0v-2zm36-16v13l-10-6.5L36 19zM0 19v13l10-6.5L0 19zM8 6c0-.552.456-1 .995-1h8.01c.55 0 .995.444.995 1 0 .552-.456 1-.995 1h-8.01A.995.995 0 0 1 8 6zm0 5c0-.552.455-1 .992-1h18.016c.548 0 .992.444.992 1 0 .552-.455 1-.992 1H8.992A.993.993 0 0 1 8 11zm0 5c0-.552.455-1 .992-1h18.016c.548 0 .992.444.992 1 0 .552-.455 1-.992 1H8.992A.993.993 0 0 1 8 16z" fill="currentColor" fill-rule="evenodd"/></svg>
+</span>
+                <span class="menu-item__badge"></span>
+              </div>
+              <div class="menu-item__text">
+                Inbox
+              </div>
+            </a>
+          </li>
+            <li class="menu-item ic-app-header__menu-list-item" >
+              <button id="global_nav_history_link" class="ic-app-header__menu-list-link">
+                <div class="menu-item-icon-container" aria-hidden="true">
+                  <svg viewBox="0 0 1920 1920" class="ic-icon-svg menu-item__icon svg-icon-history" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <path d="M960 112.941c-467.125 0-847.059 379.934-847.059 847.059 0 467.125 379.934 847.059 847.059 847.059 467.125 0 847.059-379.934 847.059-847.059 0-467.125-379.934-847.059-847.059-847.059M960 1920C430.645 1920 0 1489.355 0 960S430.645 0 960 0s960 430.645 960 960-430.645 960-960 960m417.905-575.955L903.552 988.28V395.34h112.941v536.47l429.177 321.77-67.765 90.465z" stroke="none" stroke-width="1" fill-rule="evenodd"/>
+</svg>
+                </div>
+                <div class="menu-item__text">
+                  History
+                </div>
+              </button>
+            </li>
+            
+
+
+          <li class="ic-app-header__menu-list-item">
+           <a id="global_nav_help_link" role="button" class="ic-app-header__menu-list-link" data-track-category="help system" data-track-label="help button" href="http://help.instructure.com/">
+              <div class="menu-item-icon-container" role="presentation">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg menu-item__icon svg-icon-help" version="1.1" x="0" y="0" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve" fill="currentColor"><path d="M100,127.88A11.15,11.15,0,1,0,111.16,139,11.16,11.16,0,0,0,100,127.88Zm8.82-88.08a33.19,33.19,0,0,1,23.5,23.5,33.54,33.54,0,0,1-24,41.23,3.4,3.4,0,0,0-2.74,3.15v9.06H94.42v-9.06a14.57,14.57,0,0,1,11.13-14,22.43,22.43,0,0,0,13.66-10.27,22.73,22.73,0,0,0,2.31-17.37A21.92,21.92,0,0,0,106,50.59a22.67,22.67,0,0,0-19.68,3.88,22.18,22.18,0,0,0-8.65,17.64H66.54a33.25,33.25,0,0,1,13-26.47A33.72,33.72,0,0,1,108.82,39.8ZM100,5.2A94.8,94.8,0,1,0,194.8,100,94.91,94.91,0,0,0,100,5.2m0,178.45A83.65,83.65,0,1,1,183.65,100,83.73,83.73,0,0,1,100,183.65" transform="translate(-5.2 -5.2)"/></svg>
+
+                <span class="menu-item__badge"></span>
+              </div>
+              <div class="menu-item__text">
+                Support
+              </div>
+</a>          </li>
+        </ul>
+      </div>
+      <div class="ic-app-header__secondary-navigation">
+        <ul class="ic-app-header__menu-list">
+          <li class="menu-item ic-app-header__menu-list-item">
+            <button
+              id="primaryNavToggle"
+              class="ic-app-header__menu-list-link ic-app-header__menu-list-link--nav-toggle"
+              aria-label="Expand global navigation
+                "
+              title="Expand global navigation
+                "
+            >
+              <div class="menu-item-icon-container" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ic-icon-svg ic-icon-svg--navtoggle" version="1.1" x="0" y="0" width="40" height="32" viewBox="0 0 40 32" xml:space="preserve">
+  <path d="M39.5,30.28V2.48H37.18v27.8Zm-4.93-13.9L22.17,4,20.53,5.61l9.61,9.61H.5v2.31H30.14l-9.61,9.61,1.64,1.64Z"/>
+</svg>
+
+              </div>
+            </button>
+          </li>
+        </ul>
+      </div>
+    <div id="global_nav_tray_container"></div>
+    <div id="global_nav_tour"></div>
+  </header>
+
+
+  <div id="instructure_ajax_error_box">
+    <div style="text-align: right; background-color: #fff;"><a href="#" class="close_instructure_ajax_error_box_link">Close</a></div>
+    <iframe id="instructure_ajax_error_result" src="about:blank" style="border: 0;" title="Error"></iframe>
+  </div>
+
+  <div id="wrapper" class="ic-Layout-wrapper">
+      <div class="ic-app-nav-toggle-and-crumbs no-print">
+          <button type="button" id="courseMenuToggle" class="Button Button--link ic-app-course-nav-toggle" aria-live="polite" aria-label="Hide Courses Navigation Menu">
+            <i class="icon-hamburger" aria-hidden="true"></i>
+          </button>
+          <div class="ic-app-crumbs">
+          <nav id="breadcrumbs" role="navigation" aria-label="breadcrumbs"><ul><li class="home"><a href="/"><span class="ellipsible">      <i class="icon-home"
+         title="My Dashboard">
+        <span class="screenreader-only">My Dashboard</span>
+      </i>
+</span></a></li><li><a href="/courses/33561"><span class="ellipsible">DH8999-P1-Andre, J</span></a></li><li><a href="/courses/33561/quizzes"><span class="ellipsible">Quizzes</span></a></li><li><a href="/courses/33561/quizzes/307660"><span class="ellipsible">Simple Machines and Motion QUIZ!!!</span></a></li></ul></nav>
+        </div>
+          <div class="TutorialToggleHolder"></div>
+      </div>
+    <div id="main" class="ic-Layout-columns">
+        <div class="ic-Layout-watermark"></div>
+        <div id="left-side"
+          class="ic-app-course-menu list-view"
+          style="display: block"
+          >
+              <span id="section-tabs-header-subtitle" class="ellipsis">2021-2022 San Clemente High School - Fall</span>
+            <nav role="navigation" aria-label="Courses Navigation Menu"><ul id="section-tabs"><li class="section"><a href="/courses/33561" class="home">Home</a></li><li class="section"><a href="/courses/33561/assignments" class="assignments">Assignments</a></li><li class="section"><a href="/courses/33561/discussion_topics" class="discussions">Discussions</a></li><li class="section"><a href="/courses/33561/grades" class="grades">Grades</a></li><li class="section"><a href="/courses/33561/users" class="people">People</a></li><li class="section"><a href="/courses/33561/wiki" class="pages">Pages</a></li><li class="section"><a href="/courses/33561/files" class="files">Files</a></li><li class="section"><a href="/courses/33561/assignments/syllabus" class="syllabus">Syllabus</a></li><li class="section"><a href="/courses/33561/quizzes" aria-current="page" class="quizzes active">Quizzes</a></li><li class="section"><a href="/courses/33561/modules" class="modules">Modules</a></li></ul></nav>
+        </div>
+      <div id="not_right_side" class="ic-app-main-content">
+        <div id="content-wrapper" class="ic-Layout-contentWrapper">
+          
+          <div id="content" class="ic-Layout-contentMain" role="main">
+            
+
+
+
+<h3 class="loading">Loading...</h3>
+<div class="loaded" style="display:none">
+  <header class="quiz-header">
+    <h1>Simple Machines and Motion QUIZ!!!</h1>
+    Started:
+    Aug 23 at  8:41am
+    <h2>Quiz Instructions</h2>
+    <div id="quiz-instructions" class="user_content">
+      
+    </div>
+
+  </header>
+
+
+  <form id="submit_quiz_form" class="one_question_at_a_time cant_go_back last_page" action="/courses/33561/quizzes/307660/submissions?user_id=102077" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="92dLk7nGOKLtdjjubfuTi9cddbkiyXT9eK/XJp3eZgnBLhjh9qIA9KsPX94cneP8sysi0GmtBrpOnbpR94ouYg==" />
+
+  <div id="questions" class="assessing">
+    <input type="hidden" name="attempt" value="1"/>
+      <input type="hidden" name="validation_token" value="87ba77ae81ed10040e6c78063111c109eb1e5647638ee76bcad324b5e0e867b6"/>
+    <div style="display: none;" id="quiz_urls">
+      <a href="/courses/33561/quizzes/307660/submissions/backup?user_id=102077" class="backup_quiz_submission_url">&nbsp;</a>
+      <span class="started_at">2021-08-23T08:41:15-07:00</span>
+      <span class="now">2021-08-24T19:46:04-07:00</span>
+      <span class="end_at">2022-01-06T00:00:00-08:00</span>
+      <span class="end_at_without_time_limit">2022-01-06T08:00:00Z</span>
+      <span class="due_at">2021-08-24T23:59:59-07:00</span>
+      <span class="time_limit">&nbsp;</span>
+      <span class="timer_autosubmit_disabled">false</span>
+      <span class="time_left">11596435</span>
+    </div>
+
+    
+<div role="region" aria-label="Question" class="quiz_sortable question_holder " id="" style="" data-group-id="">
+  <div style="display: block; height: 1px; overflow: hidden;">&nbsp;</div>
+  <a name="question_2469340"></a>
+  <div class="display_question question multiple_dropdowns_question     " id="question_2469340">
+    
+<div class="move">
+  <a tabindex="0" class="draggable-handle" role="button">
+    <i class="icon-drag-handle">
+      <span class="screenreader-only">Move To...</span>
+      <span class="accessibility-warning screenreader-only">
+        This element is a more accessible alternative to drag &amp; drop reordering. Press Enter or Space to move this question.
+      </span>
+    </i>
+  </a>
+</div>
+
+
+    <div class="header" >
+      <span class="name question_name" role="heading" aria-level="2">Question 2</span>
+      <span class="question_points_holder" style="">
+        <span class="points question_points">6</span> pts
+    </span>
+    </div>
+      <div class="links" style="display: none;">
+        <a href="#" class="edit_question_link no-hover" title="Edit this Question"><i class="icon-edit standalone-icon"><span class="screenreader-only">Edit this Question</span></i></a>
+          <a href="#" class="delete_question_link no-hover" title="Delete this Question"><i class="icon-end standalone-icon"><span class="screenreader-only">Delete this Question</span></i></a>
+      </div>
+    <div style="display: none;">
+      <span class="regrade_option"></span>
+      <span class="regrade_disabled">0</span>
+      <span class="question_type">multiple_dropdowns_question</span>
+      <span class="answer_selection_type"></span>
+        <a href="/courses/33561/quizzes/307660/questions/2469340" class="update_question_url">&nbsp;</a>
+      <span class="assessment_question_id">&nbsp;</span>
+    </div>
+    <div class="text">
+      <div class="original_question_text" style="display: none;">
+        <textarea disabled style="display: none;" name="text_after_answers" class="textarea_text_after_answers"></textarea>
+        <textarea disabled style="display: none;" name="question_text" class="textarea_question_text">
+&lt;p&gt;&lt;img src=&quot;http://img.ctrlv.in/img/15/07/29/55b9066ec5aeb.png&quot; alt=&quot;&quot; width=&quot;150&quot; height=&quot;135&quot;&gt;          &lt;select class=&#39;question_input&#39; name=&#39;question_2469340_604d2c7c3b8ecdfe14ffbc1adfd16e9f&#39;&gt;
+            &lt;option value=&#39;&#39;&gt;
+              [ Select ]
+            &lt;/option&gt;
+            [&quot;&lt;option value=&#39;55868&#39;&gt;pulley&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;35977&#39;&gt;lever&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;51683&#39;&gt;screw&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;8640&#39;&gt;wedge&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;22156&#39;&gt;inclined plane&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;31244&#39;&gt;wheel and axle&lt;/option&gt;&quot;]
+          &lt;/select&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://img.ctrlv.in/img/15/07/29/55b9068aa4468.png&quot; alt=&quot;&quot; width=&quot;150&quot; height=&quot;125&quot;&gt;&lt;span&gt;          &lt;select class=&#39;question_input&#39; name=&#39;question_2469340_d8242b6a33a2d24286319ae6f83ad4f6&#39;&gt;
+            &lt;option value=&#39;&#39;&gt;
+              [ Select ]
+            &lt;/option&gt;
+            [&quot;&lt;option value=&#39;13998&#39;&gt;wedge&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;16675&#39;&gt;pulley&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;15956&#39;&gt;inclined plane&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;34480&#39;&gt;screw&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;14087&#39;&gt;wheel and axle&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;25079&#39;&gt;lever&lt;/option&gt;&quot;]
+          &lt;/select&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.snag.gy/zPRym.jpg&quot; alt=&quot;&quot; width=&quot;150&quot; height=&quot;128&quot;&gt;&lt;span&gt;          &lt;select class=&#39;question_input&#39; name=&#39;question_2469340_3532535fda98631a9ca23cdde98dda42&#39;&gt;
+            &lt;option value=&#39;&#39;&gt;
+              [ Select ]
+            &lt;/option&gt;
+            [&quot;&lt;option value=&#39;67658&#39;&gt;inclined plane&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;4345&#39;&gt;screw&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;92730&#39;&gt;lever&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;18045&#39;&gt;wedge&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;11089&#39;&gt;pulley&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;59084&#39;&gt;wheel and axle&lt;/option&gt;&quot;]
+          &lt;/select&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.snag.gy/WVMdK.jpg&quot; alt=&quot;&quot; width=&quot;172&quot; height=&quot;83&quot;&gt;&lt;span&gt;          &lt;select class=&#39;question_input&#39; name=&#39;question_2469340_ff4b620f4d46839a261ba48a80f0db2c&#39;&gt;
+            &lt;option value=&#39;&#39;&gt;
+              [ Select ]
+            &lt;/option&gt;
+            [&quot;&lt;option value=&#39;25278&#39;&gt;screw&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;41941&#39;&gt;pulley&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;13226&#39;&gt;wheel and axle&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;44244&#39;&gt;lever&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;21459&#39;&gt;wedge&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;94114&#39;&gt;inclined plane&lt;/option&gt;&quot;]
+          &lt;/select&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.snag.gy/ELecK.jpg&quot; alt=&quot;&quot; width=&quot;164&quot; height=&quot;100&quot;&gt;&lt;span&gt;          &lt;select class=&#39;question_input&#39; name=&#39;question_2469340_8d7d29580ce34f5a6819992f83a7f221&#39;&gt;
+            &lt;option value=&#39;&#39;&gt;
+              [ Select ]
+            &lt;/option&gt;
+            [&quot;&lt;option value=&#39;51550&#39;&gt;lever&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;42948&#39;&gt;wheel and axle&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;1029&#39;&gt;wedge&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;42873&#39;&gt;pulley&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;16755&#39;&gt;screw&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;68495&#39;&gt;inclined plane&lt;/option&gt;&quot;]
+          &lt;/select&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i.snag.gy/lYM26.jpg&quot; alt=&quot;&quot; width=&quot;82&quot; height=&quot;136&quot;&gt;&lt;span&gt;          &lt;select class=&#39;question_input&#39; name=&#39;question_2469340_a6de2178ae5991ce7a4083ba780b8d7d&#39;&gt;
+            &lt;option value=&#39;&#39;&gt;
+              [ Select ]
+            &lt;/option&gt;
+            [&quot;&lt;option value=&#39;68980&#39;&gt;wedge&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;55608&#39;&gt;wheel and axle&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;64993&#39;&gt;screw&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;23979&#39;&gt;lever&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;75522&#39;&gt;inclined plane&lt;/option&gt;&quot;, &quot;&lt;option value=&#39;98481&#39;&gt;pulley&lt;/option&gt;&quot;]
+          &lt;/select&gt;
+&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+</textarea>
+      </div>
+      <div id="question_2469340_question_text" class="question_text user_content">
+          
+<p><img src="http://img.ctrlv.in/img/15/07/29/55b9066ec5aeb.png" alt="" width="150" height="135">          <select class="question_input" name="question_2469340_604d2c7c3b8ecdfe14ffbc1adfd16e9f" aria-label="Multiple dropdowns, read surrounding text">
+            <option value="" selected="selected">
+              [ Select ]
+            </option>
+            ["<option value="55868">pulley</option>", "<option value="35977">lever</option>", "<option value="51683">screw</option>", "<option value="8640">wedge</option>", "<option value="22156">inclined plane</option>", "<option value="31244">wheel and axle</option>"]
+          </select>
+</p>
+<p><img src="http://img.ctrlv.in/img/15/07/29/55b9068aa4468.png" alt="" width="150" height="125"><span>          <select class="question_input" name="question_2469340_d8242b6a33a2d24286319ae6f83ad4f6" aria-label="Multiple dropdowns, read surrounding text">
+            <option value="" selected="selected">
+              [ Select ]
+            </option>
+            ["<option value="13998">wedge</option>", "<option value="16675">pulley</option>", "<option value="15956">inclined plane</option>", "<option value="34480">screw</option>", "<option value="14087">wheel and axle</option>", "<option value="25079">lever</option>"]
+          </select>
+</span></p>
+<p><img src="http://i.snag.gy/zPRym.jpg" alt="" width="150" height="128"><span>          <select class="question_input" name="question_2469340_3532535fda98631a9ca23cdde98dda42" aria-label="Multiple dropdowns, read surrounding text">
+            <option value="" selected="selected">
+              [ Select ]
+            </option>
+            ["<option value="67658">inclined plane</option>", "<option value="4345">screw</option>", "<option value="92730">lever</option>", "<option value="18045">wedge</option>", "<option value="11089">pulley</option>", "<option value="59084">wheel and axle</option>"]
+          </select>
+</span></p>
+<p><img src="http://i.snag.gy/WVMdK.jpg" alt="" width="172" height="83"><span>          <select class="question_input" name="question_2469340_ff4b620f4d46839a261ba48a80f0db2c" aria-label="Multiple dropdowns, read surrounding text">
+            <option value="" selected="selected">
+              [ Select ]
+            </option>
+            ["<option value="25278">screw</option>", "<option value="41941">pulley</option>", "<option value="13226">wheel and axle</option>", "<option value="44244">lever</option>", "<option value="21459">wedge</option>", "<option value="94114">inclined plane</option>"]
+          </select>
+</span></p>
+<p><img src="http://i.snag.gy/ELecK.jpg" alt="" width="164" height="100"><span>          <select class="question_input" name="question_2469340_8d7d29580ce34f5a6819992f83a7f221" aria-label="Multiple dropdowns, read surrounding text">
+            <option value="" selected="selected">
+              [ Select ]
+            </option>
+            ["<option value="51550">lever</option>", "<option value="42948">wheel and axle</option>", "<option value="1029">wedge</option>", "<option value="42873">pulley</option>", "<option value="16755">screw</option>", "<option value="68495">inclined plane</option>"]
+          </select>
+</span></p>
+<p><img src="http://i.snag.gy/lYM26.jpg" alt="" width="82" height="136"><span>          <select class="question_input" name="question_2469340_a6de2178ae5991ce7a4083ba780b8d7d" aria-label="Multiple dropdowns, read surrounding text">
+            <option value="" selected="selected">
+              [ Select ]
+            </option>
+            ["<option value="68980">wedge</option>", "<option value="55608">wheel and axle</option>", "<option value="64993">screw</option>", "<option value="23979">lever</option>", "<option value="75522">inclined plane</option>", "<option value="98481">pulley</option>"]
+          </select>
+</span>&nbsp;</p>
+
+      </div>
+      <div class="answers">
+      </div>
+      <div class="after_answers">
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+
+    <div class="button-container clearfix">
+
+    </div>
+  </div>
+
+  <div style="font-size: 1.2em; display: none;" id="times_up_dialog">
+    Time&#39;s Up!  Submitting results in:
+    <div style="text-align: center; font-size: 1.2em; margin: 10px;" class="countdown_seconds"></div>
+    <div class="button-container">
+      <button type="submit" class="submit_quiz_button btn quiz_submit">
+        Ok, fine
+      </button>
+    </div>
+  </div>
+
+  <div class=form-actions>
+    <span id="last_saved_indicator">Not saved</span>
+    <button type="submit" class="btn submit_button quiz_submit btn-secondary" id="submit_quiz_button" data-action="/courses/33561/quizzes/307660/submissions?user_id=102077">
+      Submit Quiz
+    </button>
+  </div>
+
+</form>
+  <form id="deauthorized_dialog"
+    class="hide"
+    title="Login Required"
+    action="/courses/33561/quizzes/307660"
+    method="get">
+    <div class="text-center">
+      <strong>You have been logged out of canvas.</strong><br /> To continue please log in
+    </div>
+  </form>
+</div>
+
+          </div>
+        </div>
+        <div id="right-side-wrapper" class="ic-app-main-content__secondary">
+          <aside id="right-side" role="complementary">
+              
+<div>
+
+  
+<h3 style="margin: 0px;">Questions</h3>
+<ul id="question_list" style="max-height: 200px; overflow: auto;" class="read_only">
+
+    <li id="list_question_2469339" class="list_question answered seen">
+          <span>
+            <i class="placeholder icon-check"><span class="screenreader-only icon-text">Answered</span></i>Question 1
+            <span class="screenreader-only marked-status"></span>
+          <span>
+
+    </li>
+
+    <li id="list_question_2469340" class="list_question seen current_question">
+          <span>
+            <i class="placeholder icon-question"><span class="screenreader-only icon-text">Haven&#39;t Answered Yet</span></i>Question 2
+            <span class="screenreader-only marked-status"></span>
+          <span>
+
+    </li>
+</ul>
+
+
+  <div id="quiz-time-elapsed">
+    <span class="time_header">
+        Time Elapsed:
+    </span>
+    <span style="font-size: 0.8em; padding-left: 10px;">
+      <a href="#" class="hide_time_link">Hide</a>
+    </span>
+      <div style="font-size: 0.8em;">
+        Attempt due:
+        Aug 24 at 11:59pm
+      </div>
+    <div class="clear"></div>
+    <div class="time_running"></div>
+  </div>
+</div>
+
+
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div style="display:none;"><!-- Everything inside of this should always stay hidden -->
+        <div id="page_view_id">ebfe0e06-ed12-41c8-86b4-0ca78e893b30</div>
+    </div>
+  <div id='aria_alerts' class='hide-text affix' role="alert" aria-live="assertive"></div>
+  <div id='StudentTray__Container'></div>
+    <div class="NewUserTutorialTray__Container"></div>
+  
+
+  <script>
+    Object.assign(
+      ENV,
+      {}
+    )
+  </script>
+
+<link rel="preload" href="https://du11hjcvx0uqb.cloudfront.net/br/dist/webpack-production/inst_fs_service_worker-c-7c4b96c471.js" as="script" type="text/javascript"><script>
+//<![CDATA[
+(window.bundles || (window.bundles = [])).push('inst_fs_service_worker');
+//]]>
+</script>
+  <script>
+//<![CDATA[
+
+      ;["https://instructure-uploads-pdx.s3.us-west-2.amazonaws.com/account_167500000000000001/attachments/4245174/CanvasCustom.js"].forEach(function(src) {
+        var s = document.createElement('script')
+        s.src = src
+        s.async = false
+        document.head.appendChild(s)
+      });
+//]]>
+</script>
+
+</div> <!-- #application -->
+</body>
+</html>

@@ -1,0 +1,32 @@
+int leds[] = {2, 4, 7, 8, 12};
+bool reverse = true;
+int d = 50;
+
+void setup() {
+  Serial.begin(9600);
+  //initialize pins
+  for(int i = 0; i < 5; i++){
+    Serial.println(leds[i]);
+    pinMode(leds[i], OUTPUT);
+  }
+}
+
+void loop() {
+  #if reverse
+  // put your main code here, to run repeatedly:
+  for(int i = 0; i < 5; i++){
+    int led = leds[i];
+    digitalWrite(led, HIGH);
+    delay(d);
+    digitalWrite(led, LOW);
+  }
+  #endif
+  #if !reverse
+  for(int i = 4; i > -1; i--){
+    int led = leds[i];
+    digitalWrite(led, HIGH);
+    delay(d);
+    digitalWrite(led, LOW);
+  }
+  #endif
+}
